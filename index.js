@@ -9,7 +9,7 @@ const bot = new BootBot({
   appSecret: config.get('APP_SECRET')
 });
 
-let greetings = ['Dobrý deň', 'Zdravím', 'Ahoj', 'Pozdravujem', 'Serus', 'Nazdar', 'dobry den', 'zdravim', 'dobry vecer', 'Dobrý večer']
+let greetings = ['Dobrý deň', 'Zdravím', 'Ahoj', 'Pozdravujem', 'Serus', 'Nazdar', 'dobry den', 'zdravim', 'zdravím', 'dobry vecer', 'Dobrý večer']
 const buttons = [
   { type: 'postback', title: 'Áno', payload: 'YES' },
   { type: 'postback', title: 'Nie', payload: 'NO' }];
